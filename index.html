@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>draw vertical text</title>
+    <script defer type="module" src="index.mjs"></script>
+    <style>
+      div {
+        line-height: 1;
+        writing-mode: vertical-rl;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="textarea" rows="10" cols="60">こんにちは</textarea>
+    <br>
+    <div id="preview"></div>
+    <br>
+    <div id="svgArea"></div>
+    <br>
+    <canvas id="canvas" width="" height=""></canvas>
+  </body>
+</html>
+
